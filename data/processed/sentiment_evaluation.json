@@ -1,0 +1,702 @@
+[
+  {
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.6647,
+    "correct": false
+  },
+  {
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.8374,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.6568,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.4567,
+    "correct": false
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8641,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.817,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7068,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.5,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7539,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8352,
+    "correct": true
+  },
+  {
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.6645,
+    "correct": true
+  },
+  {
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.7705,
+    "correct": false
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8615,
+    "correct": true
+  },
+  {
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.5385,
+    "correct": false
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8879,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8691,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.932,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7563,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8903,
+    "correct": true
+  },
+  {
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.9347,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.5631,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8519,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8922,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8363,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.866,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7113,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.9175,
+    "correct": true
+  },
+  {
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "neutral",
+    "confidence": 0.4222,
+    "correct": false
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.3491,
+    "correct": false
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7761,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.9352,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8744,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8311,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.9181,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.6659,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7308,
+    "correct": true
+  },
+  {
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.6426,
+    "correct": false
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7551,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8421,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "neutral",
+    "confidence": 0.565,
+    "correct": false
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.5182,
+    "correct": false
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "neutral",
+    "confidence": 0.7545,
+    "correct": false
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.9245,
+    "correct": true
+  },
+  {
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.8817,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "neutral",
+    "confidence": 0.5387,
+    "correct": false
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8386,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8772,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.9351,
+    "correct": true
+  },
+  {
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.9467,
+    "correct": true
+  },
+  {
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.7881,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8968,
+    "correct": true
+  },
+  {
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.9633,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.9257,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8585,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8811,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8822,
+    "correct": true
+  },
+  {
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.8294,
+    "correct": false
+  },
+  {
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.8263,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "neutral",
+    "confidence": 0.5457,
+    "correct": false
+  },
+  {
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.9466,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8712,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8088,
+    "correct": true
+  },
+  {
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.9138,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8747,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.6303,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.4073,
+    "correct": true
+  },
+  {
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.8817,
+    "correct": false
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.37,
+    "correct": true
+  },
+  {
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.7803,
+    "correct": true
+  },
+  {
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.9381,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.9312,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.925,
+    "correct": true
+  },
+  {
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.9568,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7425,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8618,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8986,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.9243,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8314,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "neutral",
+    "confidence": 0.5782,
+    "correct": false
+  },
+  {
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.6636,
+    "correct": false
+  },
+  {
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.4671,
+    "correct": true
+  },
+  {
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.5396,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.3863,
+    "correct": false
+  },
+  {
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.54,
+    "correct": true
+  },
+  {
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.3831,
+    "correct": true
+  },
+  {
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.6306,
+    "correct": true
+  },
+  {
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.619,
+    "correct": true
+  },
+  {
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "neutral",
+    "confidence": 0.4649,
+    "correct": false
+  },
+  {
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "neutral",
+    "confidence": 0.5065,
+    "correct": false
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.5011,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7542,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.652,
+    "correct": true
+  },
+  {
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.6519,
+    "correct": false
+  },
+  {
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.6231,
+    "correct": false
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.6543,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.9152,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7339,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8697,
+    "correct": true
+  },
+  {
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.9177,
+    "correct": true
+  },
+  {
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8429,
+    "correct": true
+  }
+]

@@ -1,0 +1,81 @@
+name: CI — AvisCompare (C13/C18)
+
+# Le modèle IA (sentiment_service.py) est chargé au moment de l'import de
+# l'API (main.py), pas seulement à l'usage. Comme les deux fichiers de test
+# importent `from src.api.main import app`, un seul job suffit : il n'y a
+# pas moyen de tester les endpoints data sans charger aussi le modèle IA.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    name: Tests API data + modèle IA (C13/C18)
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: aviscompare
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Cache Hugging Face model
+        # Le modèle (~1 Go) est téléchargé à chaque import de main.py.
+        # On le met en cache pour ne pas le re-télécharger à chaque run.
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-cardiffnlp-sentiment-model
+
+      - name: Install dependencies
+        run: |
+          pip install fastapi uvicorn pydantic "psycopg[binary]" python-dotenv \
+                      httpx pytest pytest-cov transformers torch --extra-index-url https://download.pytorch.org/whl/cpu
+
+      - name: Load database schema
+        env:
+          PGPASSWORD: postgres
+        run: |
+          psql -h localhost -U postgres -d aviscompare -f database/schema.sql
+
+      - name: Run data API tests (C18)
+        env:
+          DB_HOST: localhost
+          DB_PORT: 5432
+          DB_NAME: aviscompare
+          DB_USER: postgres
+          DB_PASSWORD: postgres
+        run: |
+          pytest tests/test_api.py -v --cov=src/api --cov-report=term-missing
+
+      - name: Run model API tests (C13)
+        env:
+          DB_HOST: localhost
+          DB_PORT: 5432
+          DB_NAME: aviscompare
+          DB_USER: postgres
+          DB_PASSWORD: postgres
+        run: |
+          pytest tests/test_ai_api.py -v --cov=src/ai --cov-report=term-missing

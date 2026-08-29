@@ -1,0 +1,1202 @@
+[
+  {
+    "review_id": 7224,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.6518,
+    "correct": false
+  },
+  {
+    "review_id": 4516,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8028,
+    "correct": true
+  },
+  {
+    "review_id": 6118,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.4178,
+    "correct": false
+  },
+  {
+    "review_id": 915,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.5026,
+    "correct": true
+  },
+  {
+    "review_id": 11670,
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.512,
+    "correct": true
+  },
+  {
+    "review_id": 11875,
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8852,
+    "correct": true
+  },
+  {
+    "review_id": 1410,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.7426,
+    "correct": true
+  },
+  {
+    "review_id": 5779,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.4837,
+    "correct": true
+  },
+  {
+    "review_id": 17506,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.593,
+    "correct": true
+  },
+  {
+    "review_id": 5038,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.5922,
+    "correct": true
+  },
+  {
+    "review_id": 1019,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.6205,
+    "correct": false
+  },
+  {
+    "review_id": 4296,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.6073,
+    "correct": true
+  },
+  {
+    "review_id": 8881,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.4117,
+    "correct": true
+  },
+  {
+    "review_id": 17237,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.8674,
+    "correct": true
+  },
+  {
+    "review_id": 1693,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "neutral",
+    "confidence": 0.4606,
+    "correct": false
+  },
+  {
+    "review_id": 13363,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.8635,
+    "correct": true
+  },
+  {
+    "review_id": 3171,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.4927,
+    "correct": true
+  },
+  {
+    "review_id": 2761,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "neutral",
+    "confidence": 0.4907,
+    "correct": false
+  },
+  {
+    "review_id": 3176,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8946,
+    "correct": true
+  },
+  {
+    "review_id": 12979,
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.6032,
+    "correct": false
+  },
+  {
+    "review_id": 15809,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.7048,
+    "correct": true
+  },
+  {
+    "review_id": 10420,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "positive",
+    "confidence": 0.7187,
+    "correct": false
+  },
+  {
+    "review_id": 15450,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8903,
+    "correct": true
+  },
+  {
+    "review_id": 10306,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.645,
+    "correct": true
+  },
+  {
+    "review_id": 12249,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.9508,
+    "correct": true
+  },
+  {
+    "review_id": 16205,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.8696,
+    "correct": false
+  },
+  {
+    "review_id": 7904,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8167,
+    "correct": true
+  },
+  {
+    "review_id": 14046,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "positive",
+    "confidence": 0.8672,
+    "correct": false
+  },
+  {
+    "review_id": 8561,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.5915,
+    "correct": true
+  },
+  {
+    "review_id": 2777,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.6102,
+    "correct": true
+  },
+  {
+    "review_id": 17904,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.4298,
+    "correct": false
+  },
+  {
+    "review_id": 8692,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8471,
+    "correct": true
+  },
+  {
+    "review_id": 12770,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.6901,
+    "correct": true
+  },
+  {
+    "review_id": 16315,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.4217,
+    "correct": true
+  },
+  {
+    "review_id": 10359,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "positive",
+    "confidence": 0.6095,
+    "correct": false
+  },
+  {
+    "review_id": 19985,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.5236,
+    "correct": true
+  },
+  {
+    "review_id": 12443,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "neutral",
+    "confidence": 0.477,
+    "correct": false
+  },
+  {
+    "review_id": 16042,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.7632,
+    "correct": true
+  },
+  {
+    "review_id": 17053,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8705,
+    "correct": true
+  },
+  {
+    "review_id": 16648,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "positive",
+    "confidence": 0.8586,
+    "correct": false
+  },
+  {
+    "review_id": 10710,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.8766,
+    "correct": true
+  },
+  {
+    "review_id": 10106,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.8989,
+    "correct": false
+  },
+  {
+    "review_id": 12059,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.8954,
+    "correct": false
+  },
+  {
+    "review_id": 8438,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.7803,
+    "correct": false
+  },
+  {
+    "review_id": 10586,
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "neutral",
+    "confidence": 0.4202,
+    "correct": false
+  },
+  {
+    "review_id": 1889,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.5349,
+    "correct": true
+  },
+  {
+    "review_id": 7068,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.9046,
+    "correct": true
+  },
+  {
+    "review_id": 13624,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.3993,
+    "correct": false
+  },
+  {
+    "review_id": 8239,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.659,
+    "correct": true
+  },
+  {
+    "review_id": 6341,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8235,
+    "correct": true
+  },
+  {
+    "review_id": 7281,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.9459,
+    "correct": false
+  },
+  {
+    "review_id": 19344,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.6797,
+    "correct": true
+  },
+  {
+    "review_id": 1696,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.7718,
+    "correct": false
+  },
+  {
+    "review_id": 3706,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.9447,
+    "correct": true
+  },
+  {
+    "review_id": 2308,
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.4406,
+    "correct": false
+  },
+  {
+    "review_id": 978,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.957,
+    "correct": true
+  },
+  {
+    "review_id": 9235,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "neutral",
+    "confidence": 0.5401,
+    "correct": false
+  },
+  {
+    "review_id": 10358,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.8607,
+    "correct": true
+  },
+  {
+    "review_id": 12272,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.879,
+    "correct": true
+  },
+  {
+    "review_id": 12226,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.3994,
+    "correct": false
+  },
+  {
+    "review_id": 19865,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.4212,
+    "correct": false
+  },
+  {
+    "review_id": 8495,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.9279,
+    "correct": false
+  },
+  {
+    "review_id": 5687,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.9278,
+    "correct": true
+  },
+  {
+    "review_id": 232,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.9567,
+    "correct": true
+  },
+  {
+    "review_id": 9968,
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7273,
+    "correct": true
+  },
+  {
+    "review_id": 3074,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.4298,
+    "correct": true
+  },
+  {
+    "review_id": 7112,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "neutral",
+    "confidence": 0.3816,
+    "correct": false
+  },
+  {
+    "review_id": 10446,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.931,
+    "correct": true
+  },
+  {
+    "review_id": 4319,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.7904,
+    "correct": false
+  },
+  {
+    "review_id": 4288,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8575,
+    "correct": true
+  },
+  {
+    "review_id": 4618,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.4389,
+    "correct": false
+  },
+  {
+    "review_id": 2109,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.499,
+    "correct": true
+  },
+  {
+    "review_id": 4257,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "positive",
+    "confidence": 0.5174,
+    "correct": false
+  },
+  {
+    "review_id": 18705,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7534,
+    "correct": true
+  },
+  {
+    "review_id": 14950,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.6743,
+    "correct": true
+  },
+  {
+    "review_id": 16741,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.836,
+    "correct": false
+  },
+  {
+    "review_id": 14793,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.9393,
+    "correct": true
+  },
+  {
+    "review_id": 24,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8363,
+    "correct": true
+  },
+  {
+    "review_id": 5152,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.8682,
+    "correct": false
+  },
+  {
+    "review_id": 133,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7099,
+    "correct": true
+  },
+  {
+    "review_id": 12335,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.6039,
+    "correct": false
+  },
+  {
+    "review_id": 19594,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.4908,
+    "correct": false
+  },
+  {
+    "review_id": 8766,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.942,
+    "correct": true
+  },
+  {
+    "review_id": 12865,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.411,
+    "correct": true
+  },
+  {
+    "review_id": 9545,
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7111,
+    "correct": true
+  },
+  {
+    "review_id": 18166,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.6958,
+    "correct": true
+  },
+  {
+    "review_id": 13085,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.7929,
+    "correct": false
+  },
+  {
+    "review_id": 6338,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.7025,
+    "correct": false
+  },
+  {
+    "review_id": 16852,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.4768,
+    "correct": false
+  },
+  {
+    "review_id": 15008,
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.4719,
+    "correct": true
+  },
+  {
+    "review_id": 3479,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.6849,
+    "correct": true
+  },
+  {
+    "review_id": 11142,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.6096,
+    "correct": false
+  },
+  {
+    "review_id": 18961,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7472,
+    "correct": true
+  },
+  {
+    "review_id": 3449,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7826,
+    "correct": true
+  },
+  {
+    "review_id": 2491,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.6893,
+    "correct": true
+  },
+  {
+    "review_id": 19904,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.5625,
+    "correct": false
+  },
+  {
+    "review_id": 10103,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.7332,
+    "correct": false
+  },
+  {
+    "review_id": 17866,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.4189,
+    "correct": true
+  },
+  {
+    "review_id": 8110,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.4405,
+    "correct": true
+  },
+  {
+    "review_id": 12319,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.8874,
+    "correct": true
+  },
+  {
+    "review_id": 12062,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.3937,
+    "correct": true
+  },
+  {
+    "review_id": 3675,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "neutral",
+    "confidence": 0.7732,
+    "correct": false
+  },
+  {
+    "review_id": 14510,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8851,
+    "correct": true
+  },
+  {
+    "review_id": 13387,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.4384,
+    "correct": true
+  },
+  {
+    "review_id": 6330,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "positive",
+    "confidence": 0.691,
+    "correct": false
+  },
+  {
+    "review_id": 4441,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.8483,
+    "correct": true
+  },
+  {
+    "review_id": 6793,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.3998,
+    "correct": true
+  },
+  {
+    "review_id": 7786,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.4661,
+    "correct": false
+  },
+  {
+    "review_id": 4526,
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7456,
+    "correct": true
+  },
+  {
+    "review_id": 14198,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.4056,
+    "correct": true
+  },
+  {
+    "review_id": 8035,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.5315,
+    "correct": true
+  },
+  {
+    "review_id": 2349,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.5857,
+    "correct": false
+  },
+  {
+    "review_id": 6531,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.492,
+    "correct": false
+  },
+  {
+    "review_id": 9848,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.6347,
+    "correct": true
+  },
+  {
+    "review_id": 2746,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7732,
+    "correct": true
+  },
+  {
+    "review_id": 5528,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.4149,
+    "correct": false
+  },
+  {
+    "review_id": 19886,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.9291,
+    "correct": true
+  },
+  {
+    "review_id": 5137,
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "neutral",
+    "confidence": 0.5403,
+    "correct": false
+  },
+  {
+    "review_id": 2544,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7724,
+    "correct": true
+  },
+  {
+    "review_id": 8443,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.8876,
+    "correct": true
+  },
+  {
+    "review_id": 777,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.6657,
+    "correct": true
+  },
+  {
+    "review_id": 14866,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.631,
+    "correct": true
+  },
+  {
+    "review_id": 3465,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.7432,
+    "correct": true
+  },
+  {
+    "review_id": 2931,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.7622,
+    "correct": true
+  },
+  {
+    "review_id": 8486,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.8762,
+    "correct": false
+  },
+  {
+    "review_id": 8371,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.6573,
+    "correct": true
+  },
+  {
+    "review_id": 1039,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.9118,
+    "correct": true
+  },
+  {
+    "review_id": 866,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.9374,
+    "correct": true
+  },
+  {
+    "review_id": 11534,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.5547,
+    "correct": false
+  },
+  {
+    "review_id": 11722,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.8505,
+    "correct": false
+  },
+  {
+    "review_id": 4722,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.7845,
+    "correct": true
+  },
+  {
+    "review_id": 15160,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.6729,
+    "correct": false
+  },
+  {
+    "review_id": 7325,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.7791,
+    "correct": true
+  },
+  {
+    "review_id": 5150,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.9096,
+    "correct": false
+  },
+  {
+    "review_id": 18884,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.4992,
+    "correct": false
+  },
+  {
+    "review_id": 3061,
+    "rating": 2.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.7453,
+    "correct": true
+  },
+  {
+    "review_id": 468,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.688,
+    "correct": false
+  },
+  {
+    "review_id": 6456,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "neutral",
+    "confidence": 0.5341,
+    "correct": false
+  },
+  {
+    "review_id": 15315,
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.6776,
+    "correct": false
+  },
+  {
+    "review_id": 8274,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.7197,
+    "correct": false
+  },
+  {
+    "review_id": 5494,
+    "rating": 4.0,
+    "expected": "positive",
+    "predicted": "negative",
+    "confidence": 0.5281,
+    "correct": false
+  },
+  {
+    "review_id": 12355,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "negative",
+    "confidence": 0.9427,
+    "correct": false
+  },
+  {
+    "review_id": 3248,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.3929,
+    "correct": true
+  },
+  {
+    "review_id": 14550,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.474,
+    "correct": true
+  },
+  {
+    "review_id": 13902,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.4189,
+    "correct": true
+  },
+  {
+    "review_id": 6404,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.7723,
+    "correct": true
+  },
+  {
+    "review_id": 19431,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.5354,
+    "correct": true
+  },
+  {
+    "review_id": 7723,
+    "rating": 3.0,
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.4625,
+    "correct": true
+  },
+  {
+    "review_id": 10778,
+    "rating": 1.0,
+    "expected": "negative",
+    "predicted": "negative",
+    "confidence": 0.4912,
+    "correct": true
+  },
+  {
+    "review_id": 9490,
+    "rating": 5.0,
+    "expected": "positive",
+    "predicted": "positive",
+    "confidence": 0.6384,
+    "correct": true
+  }
+]
