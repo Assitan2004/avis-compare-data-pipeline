@@ -45,8 +45,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install fastapi uvicorn pydantic "psycopg[binary]" python-dotenv httpx pytest pytest-cov transformers torch --extra-index-url https://download.pytorch.org/whl/cpu
-
+          pip install fastapi uvicorn pydantic "psycopg[binary]" python-dotenv httpx pytest pytest-cov transformers torch sentencepiece --extra-index-url https://download.pytorch.org/whl/cpu
       - name: Load database schema
         env:
           PGPASSWORD: postgres
