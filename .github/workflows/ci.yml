@@ -9,7 +9,7 @@ on:
 
 jobs:
   test:
-    name: Tests API data + modele IA (C13/C18)
+    name: Tests API data + modèle IA (C13/C18)
     runs-on: ubuntu-latest
 
     services:
@@ -45,13 +45,24 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install fastapi uvicorn pydantic "psycopg[binary]" python-dotenv httpx pytest pytest-cov transformers torch sentencepiece protobuf --extra-index-url https://download.pytorch.org/whl/cpu
+          pip install fastapi uvicorn pydantic "psycopg[binary]" python-dotenv \
+                      httpx pytest pytest-cov transformers torch sentencepiece protobuf --extra-index-url https://download.pytorch.org/whl/cpu
 
       - name: Load database schema
         env:
           PGPASSWORD: postgres
         run: |
           psql -h localhost -U postgres -d aviscompare -f database/schema.sql
+
+      - name: Import real data (products + reviews)
+        env:
+          DB_HOST: localhost
+          DB_PORT: 5432
+          DB_NAME: aviscompare
+          DB_USER: postgres
+          DB_PASSWORD: postgres
+        run: |
+          python src/database/import_data.py
 
       - name: Run data API tests (C18)
         env:
