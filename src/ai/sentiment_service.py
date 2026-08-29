@@ -1,6 +1,10 @@
+import logging
 import time
 
 from transformers import pipeline
+
+
+log = logging.getLogger("avis_compare.ai_monitoring")
 
 
 # ============================================================
@@ -28,6 +32,12 @@ classifier = pipeline(
 # n'est pas suffisamment sûr de sa prédiction.
 LOW_CONFIDENCE_THRESHOLD = 0.60
 
+# Seuils d'alerte (C11) : au-delà, on journalise un avertissement
+# pour signaler que le modèle se comporte anormalement.
+ALERT_ERROR_RATE_THRESHOLD = 0.05          # plus de 5 % d'erreurs
+ALERT_LOW_CONFIDENCE_RATE_THRESHOLD = 0.30  # plus de 30 % de prédictions incertaines
+ALERT_MIN_PREDICTIONS = 20                  # ne pas alerter sur un échantillon trop petit
+
 
 # ============================================================
 # MONITORING
@@ -41,6 +51,46 @@ monitoring = {
     "low_confidence_predictions": 0,
     "rating_sentiment_conflicts": 0,
 }
+
+
+def check_monitoring_alerts():
+    """
+    Vérifie les métriques de monitoring et journalise une alerte
+    (log niveau WARNING) si un seuil anormal est dépassé.
+
+    Volontairement simple : pas de dashboard ni de notification
+    externe, mais une vraie détection automatique d'anomalie,
+    visible dans les logs de l'application.
+    """
+
+    predictions = monitoring["predictions"]
+
+    if predictions < ALERT_MIN_PREDICTIONS:
+        return
+
+    error_rate = monitoring["errors"] / predictions
+    low_confidence_rate = (
+        monitoring["low_confidence_predictions"] / predictions
+    )
+
+    if error_rate > ALERT_ERROR_RATE_THRESHOLD:
+        log.warning(
+            "ALERTE monitoring IA : taux d'erreur de %.1f%% "
+            "(seuil : %.0f%%) sur %d prédictions",
+            error_rate * 100,
+            ALERT_ERROR_RATE_THRESHOLD * 100,
+            predictions,
+        )
+
+    if low_confidence_rate > ALERT_LOW_CONFIDENCE_RATE_THRESHOLD:
+        log.warning(
+            "ALERTE monitoring IA : taux de confiance faible de %.1f%% "
+            "(seuil : %.0f%%) sur %d prédictions",
+            low_confidence_rate * 100,
+            ALERT_LOW_CONFIDENCE_RATE_THRESHOLD * 100,
+            predictions,
+        )
+
 
 
 # ============================================================
@@ -251,6 +301,8 @@ def analyze_sentiment(text: str):
                 "low_confidence_predictions"
             ] += 1
 
+        check_monitoring_alerts()
+
 
         # ----------------------------------------------------
         # DEBUG
@@ -319,6 +371,7 @@ def analyze_sentiment(text: str):
     except Exception as error:
 
         monitoring["errors"] += 1
+        check_monitoring_alerts()
 
 
         print("\n")

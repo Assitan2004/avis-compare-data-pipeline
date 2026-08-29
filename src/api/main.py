@@ -1,8 +1,10 @@
+import logging
 import os
+import time
 
 import psycopg
 from dotenv import load_dotenv
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -21,6 +23,20 @@ load_dotenv()
 
 
 # =========================================================
+# JOURNALISATION APPLICATIVE (C20)
+# =========================================================
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+)
+access_log = logging.getLogger("avis_compare.access")
+
+# Seuil au-delà duquel une requête lente est signalée dans les logs.
+SLOW_REQUEST_THRESHOLD_SECONDS = 2.0
+
+
+# =========================================================
 # APPLICATION FASTAPI
 # =========================================================
 
@@ -29,6 +45,36 @@ app = FastAPI(
     description="API REST du projet AvisCompare",
     version="1.0.0",
 )
+
+
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    """
+    Journalise chaque requête reçue par l'API : méthode, chemin,
+    code de statut et durée. Signale les requêtes lentes ou en
+    erreur (4xx/5xx) avec un niveau WARNING, pour permettre une
+    surveillance applicative simple sans outil externe (C20).
+    """
+
+    start_time = time.perf_counter()
+
+    response = await call_next(request)
+
+    duration = time.perf_counter() - start_time
+
+    log_message = (
+        f"{request.method} {request.url.path} "
+        f"-> {response.status_code} ({duration:.3f}s)"
+    )
+
+    if response.status_code >= 400:
+        access_log.warning("ERREUR " + log_message)
+    elif duration > SLOW_REQUEST_THRESHOLD_SECONDS:
+        access_log.warning("LENT " + log_message)
+    else:
+        access_log.info(log_message)
+
+    return response
 
 
 # =========================================================
@@ -47,6 +93,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 
 # =========================================================
